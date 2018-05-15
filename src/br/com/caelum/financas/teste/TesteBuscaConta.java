@@ -11,8 +11,8 @@ public class TesteBuscaConta {
 
 		em.getTransaction().begin();
 		
-		Conta contaBD = em.find(Conta.class, 8);
-		contaBD.setTitular("Luan Peixoto");
+		Conta contaBD = em.find(Conta.class, 6);
+		contaBD.setTitular("Luan Peixoto Pereira");
 		System.out.println(contaBD);
 		
 		em.getTransaction().commit();

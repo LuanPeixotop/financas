@@ -36,7 +36,7 @@ public class TesteMovimentaçõesComCategoria {
 		movimentacao2.setData(Calendar.getInstance());
 		movimentacao2.setDescricao("Viagem ao RJ");
 		movimentacao2.setTipo(TipoMovimentacao.SAIDA);
-		movimentacao2.setValor(new BigDecimal("100"));
+		movimentacao2.setValor(new BigDecimal("300"));
 		movimentacao2.setCategoria(Arrays.asList(categoria1, categoria2));
 		
 		EntityManager em = new JPAUtil().getEntityManager();

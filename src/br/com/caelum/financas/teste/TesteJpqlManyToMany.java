@@ -17,7 +17,7 @@ public class TesteJpqlManyToMany {
 		em.getTransaction().begin();
 		
 		Categoria categoria = new Categoria();
-		categoria.setId(3);
+		categoria.setId(1);
 		
 		String jpql = "select m from Movimentacao m join m.categoria c where c = :pCategoria";
 		
